@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <script src="jquery-2.2.0.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div class="topArea">
+      <input type="number" id="inputZipCode1" placeholder="Zip Code 1">
+      <input type="number" id="inputZipCode2" placeholder="Zip Code 2">
+      <input type="button" id="submitButton" value="find difference">
+    </div>
+    <div class="result" id="result1">
+      zip code: <b><span class="zip">10007</span></b><br>
+      <b><span class="city">Hillsboro</span></b><br>
+      <span class="country">USA</span><br><br>
+
+      <img src="http://icons.wxug.com/i/c/k/clear.gif" class="imgWeather"><br>
+      Weather: <span class="weather">Clear</span><br>
+      Temp: <span class="temp">30 F</span>
+    </div>
+    <div class="result" id="result2">
+      zip code: <b><span class="zip">10007</span></b><br>
+      <b><span class="city">Hillsboro</span></b><br>
+      <span class="country">USA</span><br><br>
+
+      <img src="http://icons.wxug.com/i/c/k/clear.gif" class="imgWeather"><br>
+      Weather: <span class="weather">Clear</span><br>
+      Temp: <span class="temp">30 F</span>
+    </div>
+    <div class="result" id="difference">
+      Difference between <b><span class="city1"></span></b><br> and <b><span class="city2"></span></b>:<br>
+      <h3><span class="diff"></span></h3>
+    </div>
+  </body>
+</html>
